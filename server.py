@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 WEBHOOK_VERIFY_TOKEN = "dummy_token" 
 GRAPH_API_TOKEN = "EAAL7og371v4BOyYzIOptdIiqCdVJU2xd62NaGoWAELDNCqPdoIPmL6kQ225LF7dY8cZBqAS59j4QTqiNMfqHMEOreLr3uGDvKkMr3iLYTQl8Kt8DbeZAjw95McRFmIFVO13J64wRzWZAs8cZBHYJmKxQ85zizmcTW6lza5N67RFaml1XVpPA0qEh5XoUukoePJjJK4a1z8xcrmaeSvgZD"
-PORT = 3000
+PORT = 5000
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
